@@ -17,20 +17,21 @@ body{
 
 .titulo_centralizado{
     text-align: center;
+    font-size: 35px;
 }
 
 p{
-    text-align: center; font-size: 25px;
+    text-align: center; 
+    font-size: 25px;
 }
 
-#missao style
-
-em strong{
+#missao em > strong{
     color: red;
 }
 
 .itens{
     font-style: italic;
+    font-size: 25px;
 }
 
 .beneficios{
@@ -46,10 +47,27 @@ ul{
     display: inline-block;
     vertical-align: top;
     width: 20%;
-    margin-right: 15%;
 }
 
 .imagembeneficios{
+    margin-left: 36%;
     width: 300px;
     height: 350px;
+}
+
+.menu{
+    background-color: #CCCCCC;
+}
+
+.listamenu{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+.pratos{
+    text-align: left;
+    font-size: 20px;
 }
