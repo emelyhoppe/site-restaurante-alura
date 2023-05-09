@@ -4,6 +4,17 @@
 }
 header{
     background-color: #BBBBBB;
+    padding: 20px 0;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 45px;
+    right: 0;
 }
 nav li{
     display: inline;
