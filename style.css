@@ -1,14 +1,30 @@
 body{
-    
+    background-color: #61826c;
+    margin: 0;
 }
-#banner{
-    width: 100%;
-    height: 250px;
+
+.caixaprincipal{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.logo1{
+    width: 227px;
+    margin-left: 170px;
+}
+
+h1{
+    position: absolute;
+    top: 95px;
+    right: 300px;
+    color: white;
 }
 
 .principal{
-    background: #CCCCCC;
+    background-color: white;
     padding: 30px;
+    color: #61826c;
 }
 
 .titulo_principal{
@@ -16,17 +32,17 @@ body{
 }
 
 .titulo_centralizado{
-    text-align: center;
+    text-align: left;
     font-size: 35px;
 }
 
 p{
-    text-align: center; 
+    text-align: left; 
     font-size: 25px;
 }
 
 #missao em > strong{
-    color: red;
+    color: #27352C;
 }
 
 .itens{
@@ -34,13 +50,23 @@ p{
     font-size: 25px;
 }
 
-.beneficios{
-    background-color: #FFFFFF;
+.equipe{
+    position: relative;
     padding: 20px;
+    color: white;
 }
 
-h2{
-    
+.p{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 0px;
+}
+
+.p1{
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 0px;
+
 }
 
 ul{
@@ -49,9 +75,13 @@ ul{
     width: 20%;
 }
 
-.imagembeneficios{
-    margin-left: 36%;
-    width: 300px;
+.chef1{
+    width: 280px;
+    height: 350px;
+}
+
+.chef2{
+    width: 280px;
     height: 350px;
 }
 
