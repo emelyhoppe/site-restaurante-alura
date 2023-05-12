@@ -1,9 +1,9 @@
 #logomarca{
-    width: 15%;
+    width: 277px;
     height: 25%;
 }
 header{
-    background-color: #BBBBBB;
+    background-color: #61826c;
     padding: 20px 0;
 }
 .caixa{
@@ -13,7 +13,7 @@ header{
 }
 nav{
     position: absolute;
-    top: 45px;
+    top: 50%;
     right: 0;
 }
 nav li{
@@ -22,7 +22,7 @@ nav li{
 }
 nav a{
     text-transform: uppercase;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
