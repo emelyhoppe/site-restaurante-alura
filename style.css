@@ -1,103 +1,172 @@
 body{
-    background-color: #61826c;
     margin: 0;
+    background-color: #132352;
 }
 
 .caixaprincipal{
+    display: flex;
     position: relative;
-    width: 940px;
-    margin: 0 auto;
+    justify-content: center;
+    gap: 25px;
 }
 
-.logo1{
-    width: 227px;
-    margin-left: 170px;
+.dados {
+    flex-direction: column;
+    margin-top: 35px;
 }
 
+.botao {
+    margin-top: 20%;
+    margin-left: 18%;
+}
+
+.profilepic{
+    width: 280px;
+    height: 280px;
+    margin-left: 30px;
+}
 h1{
-    position: absolute;
-    top: 95px;
-    right: 300px;
     color: white;
+    font-family: 'Playfair', serif;
 }
-
-.principal{
-    background-color: white;
-    padding: 30px;
-    color: #61826c;
-}
-
-.titulo_principal{
-    padding-left: 20px;
-}
-
-.titulo_centralizado{
-    text-align: left;
-    font-size: 35px;
-}
-
-p{
-    text-align: left; 
-    font-size: 25px;
-}
-
-#missao em > strong{
-    color: #27352C;
-}
-
-.itens{
-    font-style: italic;
-    font-size: 25px;
-}
-
-.equipe{
-    position: relative;
-    padding: 20px;
-    color: white;
-}
-
-.p{
-    position: absolute;
-    margin-left: 65px;
-    margin-top: 0px;
-}
-
 .p1{
-    position: absolute;
-    margin-left: 630px;
-    margin-top: 0px;
 
+    text-align: left;
 }
-
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-}
-
-.chef1{
-    width: 280px;
-    height: 350px;
-}
-
-.chef2{
-    width: 280px;
-    height: 350px;
-}
-
-.menu{
-    background-color: #CCCCCC;
-}
-
-.listamenu{
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Playfair', serif;
     font-size: 30px;
 }
-
-h4{
-    font-size: 25px;
+header{
+    padding: 20px 0;
+}
+.caixa{
+    display: flex;
+    justify-content: center;
 }
 
-.pratos{
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Playfair', serif;
+}
+.button {
+    border-radius: 0.2rem;
+    background-color:white;
+    padding: 1rem 2rem;
+    color: #132352;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Playfair', serif;
+}
+#about{
+    color: white;
+    text-align: center;
+    font-family: 'Playfair', serif;
+}
+.about{
+    margin: 15px 15px;
+    color: white;
+    position: relative;
+    top: 100px;
+    font-size: 22px;
+    font-family: 'Playfair', serif;
+    background-color: #091129;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+.projects{
+    position: relative;
+    top: 150px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Playfair', serif;
+    text-align: center;
+}
+.project-image{
+    width: 200px;
+    position: relative;
+    top: 225px;
+    left: 30px;
+}
+.projec-title1 {
+    position: relative;
+    top: 0;
+    margin-left: 250px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Playfair', serif;
+}
+.project1{
+    color: white;
+    position: relative;
+    margin-left: 250px;
+    font-family: 'Playfair', serif;
+    text-align: start;
+}
+
+.project-image2 {
+    margin-top: 42px;
+    width: 200px;
+    height: 200px;
+}
+
+.projec-title2 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Playfair', serif;
+}
+
+.project2 {
     text-align: left;
-    font-size: 20px;
+}
+
+.mario {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.footer{
+    position: relative;
+    top: 200px;
+    margin-left: 47%;
+    
+}
+.finalfooter{
+    position: relative;
+    top: 200px;
+}
+
+@media (max-width: 768px) {
+
+    .project-image2 {
+        height: 180px;
+        margin-top: 75px;
+    }
+
+    .caixaprincipal {
+        margin: 0;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .caixaprincipal {
+        margin: 0;
+        flex-direction: column;
+    }
+}
+
+.finalfooter a{
+    text-decoration: none;
+    color: white;
 }
